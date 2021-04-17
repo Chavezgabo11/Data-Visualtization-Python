@@ -9,6 +9,20 @@ body {
 	font-family: "Arial", "Helvetica", snas-serif;
 }
 
+.siteContainer 
+{
+	margin: 0 auto;
+	width: 1020px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .hidden{
 	display: none;
 }
@@ -16,4 +30,104 @@ body {
 .data-graphic{
 	border: thin dashed blue;
 	width: 30%;
+}
+
+
+
+#titleHeaderAbtTxt{
+	font-size: 25px;
+	text-align: center;
+}
+
+
+#imageHeader{
+	margin-left: 100px;
+	border-radius: 15px;
+}
+
+
+#titleAbtTxt{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+/*Classes*/
+
+.aboutContainer{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+
+.header{
+	margin-top: 20px;
+}
+
+
+.textCountries{
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background-color: #55a2cf;
+	border-radius: 15px;
+}
+
+
+
+.textAbout{
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background-color: #55a2cf;
+	border-radius: 15px;
+}
+
+
+.desAbtLabel h3 {
+	margin-top: 10px;
+}
+ 
+
+.AbtTxt{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+
+.desAbtContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 20px;
+}
+
+
+.desAbtLabel{
+	margin-top: 50px;
+	flex-direction: column;
+	width: 500px;
+	background-color: #2a6d89;
+	border-radius: 15px;
+	border: solid 2px #2a6d89;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.desAbtLabel p{
+	font-size: 15px;
+	padding: 20px;
+}
+
+
+.labelImg{
+	width: 500px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
 }
