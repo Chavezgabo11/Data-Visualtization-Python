@@ -40,12 +40,6 @@ body {
 }
 
 
-#imageHeader{
-	margin-left: 100px;
-	border-radius: 15px;
-}
-
-
 #titleAbtTxt{
 	margin-top: 20px;
 	font-size: 25px;
@@ -53,6 +47,14 @@ body {
 }
 
 /*Classes*/
+
+.imageHeader img{
+	margin-left: 80px;
+	border-radius: 15px;
+	width: 400px;
+}
+
+
 
 .aboutContainer{
 	display: flex;
